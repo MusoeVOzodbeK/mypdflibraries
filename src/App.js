@@ -14,7 +14,7 @@ function App() {
           href="./pdf/S._Unsal_Kaktuslar_ham_gullaydi.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          download='./pdf/S._Unsal_Kaktuslar_ham_gullaydi.pdf'
+          download='Kakuslar ham gullaydi'
         >
           Kaktuslar ham gullaydi
         </a>
