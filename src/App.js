@@ -1,21 +1,29 @@
-import Pdf from './kaktuslar.pdf'
-import './App.css';
+import kaktuslar from "./pdf/kaktuslar.pdf";
+import qalbiffati from './pdf/qalbiffati.pdf'
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      
         <a
           className="App-link"
-          href={Pdf}
+          href={kaktuslar}
           target="_blank"
           rel="noopener noreferrer"
-          download='Kakuslar ham gullaydi'
+          download="Kakuslar ham gullaydi"
         >
           Kaktuslar ham gullaydi
+        </a>
+        <a
+          className="App-link"
+          href={qalbiffati}
+          target="_blank"
+          rel="noopener noreferrer"
+          download="Qalb Iffati"
+        >
+          Qalb Iffati
         </a>
       </header>
     </div>
