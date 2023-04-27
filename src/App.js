@@ -1,5 +1,6 @@
 import kaktuslar from "./pdf/kaktuslar.pdf";
-import qalbiffati from './pdf/qalbiffati.pdf'
+import qalbiffati1 from './pdf/qalbiffati.pdf'
+import qalbIffati2 from './pdf/qalbIffati2.pdf'
 import "./App.css";
 
 function App() {
@@ -18,12 +19,21 @@ function App() {
         </a>
         <a
           className="App-link"
-          href={qalbiffati}
+          href={qalbiffati1}
           target="_blank"
           rel="noopener noreferrer"
-          download="Qalb Iffati"
+          download="Qalb Iffati 1"
         >
           Qalb Iffati
+        </a>
+        <a
+          className="App-link"
+          href={qalbIffati2}
+          target="_blank"
+          rel="noopener noreferrer"
+          download="Qalb Iffati davomi"
+        >
+          Qalb Iffati davomi
         </a>
       </header>
     </div>
